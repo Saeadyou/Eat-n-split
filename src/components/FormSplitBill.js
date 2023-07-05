@@ -17,7 +17,10 @@ export default function FormSplitBill({ selectedFriend, onSplitBill }) {
   }
 
   return (
-    <form className="form-split-bill" onSubmit={handleSplitBill}>
+    <form
+      className="form-split-bill"
+      onSubmit={handleSplitBill}
+    >
       <h2>Split a bill with {selectedFriend.name}</h2>
       <label>💰 Bill value</label>
       <input
